@@ -1,61 +1,127 @@
-# CodeIgniter 4 Framework
+# 📚 Sistem Informasi Artikel - CodeIgniter 4
 
-## What is CodeIgniter?
+## 👤 Identitas
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+* **Nama:** Naufal Rafi Haryanto
+* **NIM:** 312410118
+* **Mata Kuliah:** Praktikum Pemrograman Web
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+---
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## 📖 Deskripsi Project
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Project ini merupakan aplikasi web berbasis **CodeIgniter 4** yang digunakan untuk mengelola data artikel.
+Aplikasi ini memiliki fitur lengkap mulai dari tampilan user hingga halaman admin untuk mengelola artikel.
 
-## Important Change with index.php
+---
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## 🚀 Fitur Utama
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+### 👥 User
 
-**Please** read the user guide for a better explanation of how CI4 works!
+* Melihat daftar artikel
+* Melihat detail artikel
+* Tampilan modern (UI seperti katalog film 🎬)
 
-## Repository Management
+### 🔐 Admin
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+* Login admin
+* Tambah artikel
+* Edit artikel
+* Hapus artikel
+* Upload gambar artikel
+* Validasi form input
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+---
 
-## Contributing
+## 🖼️ Fitur Tambahan
 
-We welcome contributions from the community.
+* Upload gambar dengan validasi
+* Hapus otomatis gambar saat artikel dihapus
+* Tampilan responsive menggunakan Bootstrap
+* UI modern dengan efek hover
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+---
 
-## Server Requirements
+## 🛠️ Teknologi yang Digunakan
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+* PHP 8+
+* CodeIgniter 4
+* MySQL
+* Bootstrap 5
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+---
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
+## ⚙️ Cara Menjalankan Project
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+1. Clone repository:
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+```
+git clone https://github.com/Celtdinho/PemrogWeb2_Praktikum2.git
+```
+
+2. Masuk ke folder project:
+
+```
+cd lab12_ci4/ci4
+```
+
+3. Jalankan server:
+
+```
+php spark serve
+```
+
+4. Buka di browser:
+
+```
+http://localhost:8080
+```
+
+---
+
+## 🔐 Login Admin
+
+Gunakan akun berikut:
+
+* **Username:** admin
+* **Password:** admin123
+
+---
+
+## 📂 Struktur Folder Penting
+
+```
+app/
+ ├── Controllers/
+ ├── Models/
+ ├── Views/
+public/
+ └── gambar/
+```
+
+---
+
+## 🎯 Tujuan Project
+
+Project ini dibuat untuk memenuhi tugas praktikum sekaligus melatih kemampuan dalam:
+
+* Menggunakan framework CodeIgniter 4
+* Membuat sistem CRUD
+* Mengelola upload file
+* Mendesain UI sederhana namun menarik
+
+---
+
+## ✨ Penutup
+
+Aplikasi ini masih dapat dikembangkan lebih lanjut seperti:
+
+* Sistem login berbasis database
+* Fitur pencarian artikel
+* Pagination
+* Dashboard statistik
+
+---
+
+💻 *Dibuat dengan semangat belajar dan secangkir kopi ☕*
