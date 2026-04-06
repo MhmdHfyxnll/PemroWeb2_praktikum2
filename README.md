@@ -2,8 +2,8 @@
 
 ## 👤 Identitas
 
-* **Nama:** Naufal Rafi Haryanto
-* **NIM:** 312410118
+* **Nama:** Muhammad Hafiyainul Yakin Wahid
+* **NIM:** 312410164
 * **Mata Kuliah:** Praktikum Pemrograman Web
 
 ---
