@@ -1,4 +1,4 @@
-# 📘 Praktikum 2 - Database, Model, dan Menampilkan Artikel CodeIgniter 4 (MVC)
+# 📘 Praktikum 2 - Database, Model, dan Menampilkan Artikel CodeIgniter 4
 
 ## 👤 Data Mahasiswa
 
